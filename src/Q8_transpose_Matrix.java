@@ -13,10 +13,10 @@ public class Q8_transpose_Matrix {
         //Code for transpose
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
-                trans[i][j] = a[j][i];
+                trans[i][j] = a[j][i]; //switch the position of i and j
             }
         }
-
+    //to print out array
         System.out.println("Matrix without Transpose");
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
@@ -25,6 +25,7 @@ public class Q8_transpose_Matrix {
             System.out.println();
 
         }
+        //print out transpose array
         for (int i = 0; i < 3; i++) {
             for (int j = 0; j < 3; j++) {
                 System.out.print("["+trans[i][j]+"] ");
